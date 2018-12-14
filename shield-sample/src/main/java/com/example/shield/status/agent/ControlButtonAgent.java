@@ -76,9 +76,9 @@ public class ControlButtonAgent extends LightAgent {
             rootView.setOrientation(LinearLayout.VERTICAL);
             rootView.setBackgroundColor(getContext().getResources().getColor(android.R.color.white));
 
-           // View containView = LinearLayout.inflate(getContext(), R.layout.agent_status_loading, null);
-            View containView = LayoutInflater.from(getContext()).inflate(R.layout.agent_status_loading,rootView,false);
-                    setLoadingStatus(containView);
+            // View containView = LinearLayout.inflate(getContext(), R.layout.agent_status_loading, null);
+            View containView = LayoutInflater.from(getContext()).inflate(R.layout.agent_status_loading, rootView,false);
+            setLoadingStatus(containView);
             rootView.addView(containView);
 
             return rootView;
