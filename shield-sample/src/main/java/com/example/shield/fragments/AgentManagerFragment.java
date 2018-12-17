@@ -187,7 +187,7 @@ public abstract class AgentManagerFragment extends Fragment implements AgentCell
     public void setAgentContainerView(ViewGroup containerView) {
         if (cellManager != null) {
             cellManager.setAgentContainerView(containerView);
-            notifyCellChanged();
+             notifyCellChanged();
         } else {
             throw new NullPointerException("setAgentContainerView method should be called after super.onActivityCreated method");
         }

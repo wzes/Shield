@@ -13,6 +13,7 @@ import com.example.shield.R;
 import com.example.shield.basicfeatureandclick.ClickFragment;
 import com.example.shield.divider.DividerFragment;
 import com.example.shield.headerfootercell.HeaderFooterCellFragment;
+import com.example.shield.learn.HelloWorldFragment;
 import com.example.shield.linktype.LinkTypeFragment;
 import com.example.shield.mix.MixFragment;
 import com.example.shield.status.StatusFragment;
